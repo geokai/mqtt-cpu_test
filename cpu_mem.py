@@ -20,6 +20,8 @@ import paho.mqtt.publish as publish
 import psutil
 import credentials
 
+###   Variables   ###
+
 ###   Start of Channel Settings   ###
 
 #  ThingSpeak Channel Settings
@@ -77,7 +79,7 @@ if useSSLWebsockets:
 topic = "channels/" + channelID + "/publish/" + apiKey
 
 # Run a loop which calculates the system performance every
-#   20 seconds and publishes that to a ThingSpeak channel
+#   xx seconds and publishes that to a ThingSpeak channel
 #   using MQTT.
 
 while(True):
@@ -88,7 +90,7 @@ while(True):
     print (" CPU =",cpuPercent,"   RAM =",ramPercent)
 
     # build the payload string:
-    tPayload = "field2=" + str(cpuPercent) + "&field3=" + str(ramPercent)
+    tPayload = "field1=" + str(cpuPercent) + "&field2=" + str(ramPercent)
 
     # attempt to publish this data to the topic:
     try:
