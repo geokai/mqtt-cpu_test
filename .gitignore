@@ -1,2 +1,10 @@
+# gitignore file:
+# This file was created on 06/07/17
+# Author: George Kaimakis
+
+# directories:
+credentials/
+
+# files:
 credentials.py
 *.pyc
