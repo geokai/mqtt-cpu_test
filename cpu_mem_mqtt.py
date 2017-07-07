@@ -84,7 +84,7 @@ topic = "channels/" + channelID + "/publish/" + apiKey
 while(True):
 
     # get the system performance data:
-    cpuPercent = psutil.cpu_percent(interval=20)
+    cpuPercent = psutil.cpu_percent(interval=30)
     ramPercent = psutil.virtual_memory().percent
     print (" CPU =",cpuPercent,"   RAM =",ramPercent)
 
