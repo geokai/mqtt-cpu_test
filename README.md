@@ -1,7 +1,7 @@
-# CPU & RAM Preformance of RaspberryPi
+## CPU & RAM Preformance of RaspberryPi
 
 First mqtt publish/subscribe project reporting the cpu and ram memory percentage
-usage of my model B RaspberryPi.
+usage of my RaspberryPi.
 
 This python script was originally taken directly from the Thingspeak.com MQTT tutorial with
 little alteration.
