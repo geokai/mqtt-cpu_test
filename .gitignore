@@ -8,3 +8,6 @@ credentials/
 # files:
 credentials.py
 *.pyc
+
+# virtual env:
+venv/
